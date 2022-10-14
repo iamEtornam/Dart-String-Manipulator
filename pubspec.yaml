@@ -1,7 +1,7 @@
 name: dart_string_manipulator
 description: This is a simple dart package that helps to capitalize, reverse and split strings
-version: 0.0.1
-homepage: 
+version: 0.0.2
+homepage: https://github.com/iamEtornam/Dart-String-Manipulator
 
 environment:
   sdk: ">=2.16.2 <3.0.0"

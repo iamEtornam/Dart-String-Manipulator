@@ -16,4 +16,9 @@ void main() {
     final value = StringManipulator.splitString('hello');
     expect(value, ['h', 'e', 'l', 'l', 'o']);
   });
+
+    test('lowercase text', () {
+    final value = StringManipulator.lowercaseString('HELLO');
+    expect(value, 'hello');
+  });
 }

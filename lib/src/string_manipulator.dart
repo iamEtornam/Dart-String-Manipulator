@@ -19,4 +19,9 @@ class StringManipulator {
   static List<String> splitString(String text) {
     return text.split('');
   }
+
+  /// returns a lower case [text]
+  static String lowercaseString(String text) {
+    return text.toLowerCase();
+  }
 }

@@ -11,6 +11,8 @@ and the Flutter guide for
 [developing packages and plugins](https://flutter.dev/developing-packages). 
 -->
 
+# This repo is for a tutorial on how to create a dart/flutter package and publish to pub.dev
+
 ## Getting started
 
 This is a simple dart package that helps to capitalize, reverse and split strings
@@ -38,6 +40,11 @@ print(value); //olleh
 ```dart
 final value = StringManipulator.splitString('hello');
 print(value); //['h', 'e', 'l', 'l', 'o']
+```
+
+```dart
+final value = StringManipulator.lowercaseString('HELLO');
+print(value); //hello
 ```
 
 ## Additional information
